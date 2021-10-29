@@ -4,7 +4,6 @@
   }
   
   body {
-    background-color: var(--dark_blue)  ;
     font-family: 'Roboto Mono', monospace;
   }
   
@@ -12,6 +11,10 @@
     cursor: pointer;
   }
   
+  .login{    
+    background-color: var(--dark_blue);
+  }
+
   .btn-action {
     background-color: var(--dark_blue);
     color: var(--white);
