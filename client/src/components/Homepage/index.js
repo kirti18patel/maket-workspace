@@ -12,7 +12,7 @@ function Homepage( ) {
     <div className="text-center h-screen flex items-center justify-between">
         <img src={hero} className="hero w-1/3 h-screen" alt="decorative butterfly"/>
 
-        <section className="login w-2/3 flex flex-col px-60">
+        <section className="login w-2/3 h-screen flex text-center justify-center flex-col px-60">
             <div className={formStyle}>
                 {loginShow? <Login setLoginShow={setLoginShow}/> : <Signup setLoginShow={setLoginShow}/>
                 }

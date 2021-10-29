@@ -1,10 +1,13 @@
 :root{
     --dark_blue: #151f5b;
     --white: #ffffff;
+    --gray: #efefef;
   }
   
   body {
+    background-color: var(--gray);
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
   }
   
   a {
@@ -44,6 +47,33 @@
     text-align: center;
   }
   
+ .workspace .ql-editor{
+   padding: 1in;
+   margin: 1rem;
+   width: 8.5in;
+   min-height: 11in;
+   font-size: 1.1rem;
+   box-shadow: 0 0 5px rgba(0,0,0,0.4);
+   background-color: var(--white);
+ }
+
+ .workspace .ql-container.ql-snow{
+   display:flex;
+   justify-content: center;
+   border: none;
+ }
+
+ .workspace .ql-toolbar.ql-snow{
+  display:flex;
+  justify-content: center;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+  background-color: var(--gray);
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  border: none;
+ }
+
   @media screen and (max-width: 600px){
     .hero{
         display: none;

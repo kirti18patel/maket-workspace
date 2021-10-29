@@ -15,7 +15,7 @@ function Workspace() {
         [])
 
     return (
-        <div id="workspace" ref={workspaceRef}></div>
+        <div className="workspace" ref={workspaceRef}></div>
     )
 }
 
